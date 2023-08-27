@@ -19,7 +19,7 @@ export default function Loader() {
         className={`flex center ${styles.overlay}`}
         initial={{ y: 0 }}
         animate={{ y: '-100%' }}
-        transition={{ delay: 2, duration: 0.5 }}
+        transition={{ delay: 3, duration: 0.5 }}
       >
         <motion.div
           initial={{ scale: 1 }}

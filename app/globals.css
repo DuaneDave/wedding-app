@@ -6,6 +6,9 @@
   --dark-color-2: #4f5849;
   --accent-color-red: #b81919;
   --grey-bg: rgba(67, 83, 82, 0.05);
+
+  --font-bonny: 'Bonny', sans-serif;
+  --font-telma: 'Telma', sans-serif;
 }
 
 * {
@@ -17,6 +20,8 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: var(--font-bonny);
+  font-weight: 500;
 }
 
 body {
@@ -26,6 +31,16 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .flex {
@@ -55,4 +70,10 @@ a {
 
 .full-height {
   height: 100%;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 100%;
 }
