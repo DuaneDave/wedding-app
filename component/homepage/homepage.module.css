@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.heroContainer > span {
+  margin-top: 6rem;
+}
+
 .heroContainer h1 {
   font-family: var(--font-telma);
   font-weight: 500;
@@ -112,7 +116,12 @@
 .subDate,
 .imageContainer > div:first-of-type > p,
 .imageContainer > div:last-of-type > p {
-  font-size: 12px;
+  font-size: 12px !important;
+}
+
+.date {
+  font-size: 24px;
+  font-family: 400;
 }
 
 @media screen and (min-width: 768px) {

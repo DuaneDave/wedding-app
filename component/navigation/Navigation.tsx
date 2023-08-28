@@ -42,7 +42,13 @@ function Navigation() {
 
       <nav>
         <div className={`flex container ${styles.navigation}`}>
-          <Link href="/">Jessy&Inyene</Link>
+          <motion.span
+            initial={{ opacity: 0, x: -10 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: 'easeInOut', delay: 11 }}
+          >
+            <Link href="/">Jessy&Inyene</Link>
+          </motion.span>
 
           <ul className="flex">
             <motion.li
