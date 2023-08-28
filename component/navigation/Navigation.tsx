@@ -79,13 +79,11 @@ function Navigation() {
 
           <AnimatePresence initial={false}>
             {open && (
-              <motion.div
-                className={` full-width full-height ${styles.backdrop}`}
-              >
+              <motion.div className={`full-width ${styles.backdrop}`}>
                 <motion.ul
                   initial={{ opacity: 0, y: -100 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.2, ease: 'easeInOut' }}
+                  transition={{ duration: 0.2, ease: 'easeInOut', delay: 0.2 }}
                   exit={{ opacity: 0, y: -30 }}
                   className={`flex ${styles.mobileMenu}`}
                 >
@@ -112,6 +110,8 @@ function Navigation() {
               </motion.div>
             )}
           </AnimatePresence>
+
+          {/* <div className={styles.backdrop}></div> */}
 
           <button onClick={() => setOpen(!open)}>
             <Hamburger />

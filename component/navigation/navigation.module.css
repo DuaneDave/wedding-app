@@ -1,6 +1,6 @@
 .notice {
   background: var(--secondary-color);
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   color: var(--primary-color);
   font-size: clamp(14px, 2vw, 20px);
   overflow-x: hidden;
@@ -17,12 +17,14 @@
 
 .navigation {
   justify-content: space-between;
-  padding: 1.3rem 1rem 0.5rem 1rem;
+  padding: 1rem 0 0.3rem 0;
   font-size: clamp(20px, 2vw, 28px);
   color: var(--dark-color-1);
   position: relative;
   background: rgba(231, 232, 232, 0.25);
   backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  z-index: 20;
 }
 
 .navigation > a {
@@ -33,10 +35,8 @@
   gap: 2rem;
 }
 
-.mobileMenu {
-  display: none;
-}
-
+.backdrop,
+ul.mobileMenu,
 .navigation button {
   display: none;
 }
@@ -51,12 +51,15 @@
   }
 
   .backdrop {
+    display: block;
     position: fixed;
-    top: 0;
-    left: 0;
     padding: 1rem;
     background: rgba(0, 0, 0, 0.2);
-    z-index: 4;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 10;
   }
 
   ul.mobileMenu {
@@ -67,6 +70,7 @@
     background: #f4f5f5;
     border-radius: 26px;
     flex-direction: column;
+    z-index: 20;
   }
 
   .mobileMenu li:last-of-type {
