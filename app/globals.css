@@ -23,6 +23,10 @@
   font-style: Bold;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --primary-color: #e7e8e8;
   --secondary-color: #a55852;
