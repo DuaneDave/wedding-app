@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Telma';
+  src: url('/fonts/telma/Telma-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: 'Telma';
+  src: url('/fonts/telma/Telma-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: Bold;
+}
+@font-face {
+  font-family: 'Telma';
+  src: url('/fonts/telma/Telma-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: Bold;
+}
+@font-face {
+  font-family: 'Telma';
+  src: url('/fonts/telma/Telma-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: Bold;
+}
+
 :root {
   --primary-color: #e7e8e8;
   --secondary-color: #a55852;
@@ -19,7 +44,6 @@
 
 html,
 body {
-  overflow-x: hidden;
   font-family: var(--font-bonny);
   font-weight: 500;
 }
@@ -76,4 +100,5 @@ button {
   max-width: 1080px;
   margin: 0 auto;
   width: 100%;
+  padding-inline: 1rem;
 }
