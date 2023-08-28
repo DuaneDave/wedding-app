@@ -2,10 +2,6 @@
   height: 60dvh;
 }
 
-.mainDate {
-  display: none;
-}
-
 .imageContainer,
 .heroContainer {
   position: relative;
@@ -168,106 +164,85 @@
   }
 }
 
-/* .date {
-  font-size: 24px;
-  font-family: 400;
-}
-
-.heroContainer {
+.event {
   position: relative;
-  min-height: 100vh;
-  padding: 0 1rem;
 }
 
-.content {
-  margin-right: 2rem;
+.eventContainer {
+  margin-top: 7rem;
 }
 
-.heroContainer h1 {
+.details {
+  justify-content: space-between;
+  position: relative;
+}
+
+.eventText {
   font-family: var(--font-telma);
-  font-weight: 500;
-  font-size: 64px;
-  width: 100%;
-  max-width: 16ch;
+  font-size: 28px;
   color: var(--secondary-color);
-  line-height: 1.2;
-  margin-bottom: -4rem;
-  z-index: 10;
-  position: relative;
-}
-
-.heroContainer h1::after {
-  content: '';
-  position: absolute;
-  bottom: -0.5rem;
-  left: 10rem;
-  width: 100px;
-  height: 80px;
-  border-radius: 50%;
-  background: white;
-  filter: blur(25px);
-  z-index: -1;
-}
-
-.imageContainer {
-  position: relative;
-}
-
-.imageContainer > div {
-  z-index: 3;
-}
-
-.imageContainer > div:last-of-type {
-  position: absolute;
-  bottom: -4rem;
-  right: -13rem;
-  z-index: -1;
-}
-
-.imageContainer > div:last-of-type::before,
-.imageContainer > div:last-of-type::after {
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  right: -0.5rem;
-  width: 1px;
-  height: 50%;
-  background: var(--dark-color-2);
-  opacity: 0.5;
-}
-
-.imageContainer > div:last-of-type::before {
-  width: 50%;
-  height: 1px;
-  top: -0.65rem;
-}
-
-.subDate {
-  font-size: 14px;
-  font-family: 500;
-  position: absolute;
-  bottom: 1.5rem;
-  left: -1.5rem;
-}
-
-.mainDate {
-  position: absolute;
-  top: 50%;
-  left: 1rem;
-  transform: translateY(-50%);
+  margin-top: -1.5rem;
 }
 
 @media screen and (max-width: 768px) {
   .mainDate {
-    display: none;
+    position: absolute;
+    bottom: -55%;
+    left: 2rem;
   }
 
-  .heroContainer h1 {
-    font-size: 32px;
+  .eventText {
+    margin-top: 0.3rem;
   }
 
-  .imageContainer > div {
-    width: 250px;
-    height: 200px;
+  .details:first-of-type > span {
+    align-self: flex-end;
+    position: absolute;
+    right: 1rem;
+    top: 15rem;
   }
-} */
+
+  .details:last-of-type {
+    flex-direction: column;
+  }
+
+  .details:last-of-type > span {
+    margin-left: 34%;
+  }
+
+  .details:first-of-type > div {
+    margin-inline: auto 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .details:last-of-type > div {
+    margin: 2rem 0 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .details:first-of-type {
+    flex-direction: row;
+  }
+
+  .details:last-of-type {
+    align-self: flex-end;
+  }
+
+  .eventText:first-of-type {
+    margin-bottom: 4rem;
+  }
+
+  .eventText:last-of-type {
+    transform: translateY(2rem);
+  }
+
+  .headers:last-of-type,
+  .eventText:last-of-type {
+    margin-left: 2rem;
+  }
+
+  .eventText {
+    font-size: 48px;
+  }
+}
