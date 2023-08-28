@@ -1,3 +1,15 @@
+
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background: rgba(231, 232, 232, 0.25);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+}
+
 .notice {
   background: var(--secondary-color);
   padding: 0.1rem 1rem;
@@ -21,9 +33,6 @@
   font-size: clamp(20px, 2vw, 28px);
   color: var(--dark-color-1);
   position: relative;
-  background: rgba(231, 232, 232, 0.25);
-  backdrop-filter: blur(11.5px);
-  -webkit-backdrop-filter: blur(11.5px);
   z-index: 20;
 }
 
