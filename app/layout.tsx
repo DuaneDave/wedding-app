@@ -8,47 +8,47 @@ import Navigation from '@/component/navigation/Navigation';
 const myFont = localFont({
   src: [
     {
-      path: '../fonts/telma/Telma-Bold.woff2',
+      path: '../public/fonts/telma/Telma-Bold.woff2',
       weight: '700',
       style: 'bold',
     },
     {
-      path: '../fonts/telma/Telma-Regular.woff2',
+      path: '../public/fonts/telma/Telma-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../fonts/telma/Telma-Light.woff2',
+      path: '../public/fonts/telma/Telma-Light.woff2',
       weight: '300',
       style: 'light',
     },
     {
-      path: '../fonts/telma/Telma-Medium.woff2',
+      path: '../public/fonts/telma/Telma-Medium.woff2',
       weight: '500',
       style: 'medium',
     },
     {
-      path: '../fonts/bonny/Bonny-Bold.woff2',
+      path: '../public/fonts/bonny/Bonny-Bold.woff2',
       weight: '700',
       style: 'bold',
     },
     {
-      path: '../fonts/bonny/Bonny-Regular.woff2',
+      path: '../public/fonts/bonny/Bonny-Regular.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../fonts/bonny/Bonny-Light.woff2',
+      path: '../public/fonts/bonny/Bonny-Light.woff2',
       weight: '400',
       style: 'light',
     },
     {
-      path: '../fonts/bonny/Bonny-Medium.woff2',
+      path: '../public/fonts/bonny/Bonny-Medium.woff2',
       weight: '600',
       style: 'medium',
     },
     {
-      path: '../fonts/bonny/Bonny-Thin.woff2',
+      path: '../public/fonts/bonny/Bonny-Thin.woff2',
       weight: '300',
       style: 'thin',
     },
