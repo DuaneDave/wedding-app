@@ -1,0 +1,264 @@
+.mainContainer {
+  height: 60dvh;
+}
+
+.mainDate {
+  display: none;
+}
+
+.imageContainer,
+.heroContainer {
+  position: relative;
+}
+
+.heroContainer h1 {
+  font-family: var(--font-telma);
+  font-weight: 500;
+  font-size: 32px;
+  width: 100%;
+  max-width: 15ch;
+  color: var(--secondary-color);
+  line-height: 1.2;
+  margin-bottom: -1.5rem;
+  margin-left: -1.5rem;
+  z-index: 5;
+  position: relative;
+}
+
+.heroContainer h1::after {
+  content: '';
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.imageContainer > div {
+  width: 180.393px;
+  height: 226.451px;
+  position: relative;
+}
+
+.imageContainer > div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.imageContainer > div:first-of-type {
+  margin-left: -8.5rem;
+  z-index: 2;
+}
+
+.imageContainer > div:last-of-type {
+  position: absolute;
+  bottom: -4rem;
+  right: -8.5rem;
+  z-index: -1;
+}
+
+.subDate {
+  font-family: 500;
+  position: absolute;
+  bottom: 0;
+  left: -1.2rem;
+}
+
+.imageContainer > div:last-of-type > p {
+  align-self: flex-end;
+}
+
+.imageContainer > div:last-of-type::before,
+.imageContainer > div:last-of-type::after {
+  content: '';
+  position: absolute;
+  top: -0.7rem;
+  right: -0.5rem;
+  width: 1px;
+  height: 50%;
+  background: var(--dark-color-2);
+  opacity: 0.3;
+}
+
+.imageContainer > div:last-of-type::before {
+  width: 50%;
+  height: 1px;
+  top: -0.65rem;
+}
+
+.imageContainer > div:first-of-type::before,
+.imageContainer > div:first-of-type::after {
+  content: '';
+  position: absolute;
+  bottom: -0.4rem;
+  left: -0.4rem;
+  width: 1px;
+  height: 50%;
+  background: var(--dark-color-2);
+  opacity: 0.5;
+}
+
+.imageContainer > div:first-of-type::before {
+  width: 50%;
+  height: 1px;
+  bottom: -0.4rem;
+}
+
+.subDate,
+.imageContainer > div:first-of-type > p,
+.imageContainer > div:last-of-type > p {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .mainContainer {
+    height: 80dvh;
+  }
+
+  .mainDate {
+    display: block;
+  }
+
+  .heroContainer h1 {
+    margin-bottom: -4rem;
+    margin-left: -10rem;
+    font-size: 64px;
+    max-width: 16ch;
+  }
+
+  .heroContainer h1::after {
+    bottom: -0.4rem;
+    left: 10rem;
+    width: 100px;
+    height: 90px;
+    filter: blur(25px);
+  }
+
+  .imageContainer > div {
+    width: 282px;
+    height: 354px;
+  }
+
+  .imageContainer > div:last-of-type {
+    bottom: -4rem;
+    right: -13rem;
+  }
+
+  .subDate {
+    font-size: 14px;
+  }
+
+  .imageContainer > div:first-of-type > p,
+  .imageContainer > div:last-of-type > p {
+    font-size: 15px;
+  }
+}
+
+/* .date {
+  font-size: 24px;
+  font-family: 400;
+}
+
+.heroContainer {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 1rem;
+}
+
+.content {
+  margin-right: 2rem;
+}
+
+.heroContainer h1 {
+  font-family: var(--font-telma);
+  font-weight: 500;
+  font-size: 64px;
+  width: 100%;
+  max-width: 16ch;
+  color: var(--secondary-color);
+  line-height: 1.2;
+  margin-bottom: -4rem;
+  z-index: 10;
+  position: relative;
+}
+
+.heroContainer h1::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 10rem;
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  filter: blur(25px);
+  z-index: -1;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageContainer > div {
+  z-index: 3;
+}
+
+.imageContainer > div:last-of-type {
+  position: absolute;
+  bottom: -4rem;
+  right: -13rem;
+  z-index: -1;
+}
+
+.imageContainer > div:last-of-type::before,
+.imageContainer > div:last-of-type::after {
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  width: 1px;
+  height: 50%;
+  background: var(--dark-color-2);
+  opacity: 0.5;
+}
+
+.imageContainer > div:last-of-type::before {
+  width: 50%;
+  height: 1px;
+  top: -0.65rem;
+}
+
+.subDate {
+  font-size: 14px;
+  font-family: 500;
+  position: absolute;
+  bottom: 1.5rem;
+  left: -1.5rem;
+}
+
+.mainDate {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  .mainDate {
+    display: none;
+  }
+
+  .heroContainer h1 {
+    font-size: 32px;
+  }
+
+  .imageContainer > div {
+    width: 250px;
+    height: 200px;
+  }
+} */
