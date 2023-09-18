@@ -29,7 +29,7 @@ function Event() {
             <Arrows />
             <div>
               <div className={styles.headers}>
-                <h2>The Date</h2>
+                <h2>The Venue</h2>
                 <Underline />
               </div>
 

@@ -76,6 +76,7 @@ function Navigation() {
             >
               <Link href="/rsvp">RSVP</Link>
             </motion.li>
+  
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
@@ -84,8 +85,9 @@ function Navigation() {
                 scale: 1.1,
               }}
             >
-              <Link href="/program">Our Program</Link>
+              <Link href="/qna">Q&A</Link>
             </motion.li>
+            
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
@@ -131,8 +133,6 @@ function Navigation() {
               </motion.div>
             )}
           </AnimatePresence>
-
-          {/* <div className={styles.backdrop}></div> */}
 
           <button onClick={() => setOpen(!open)}>
             <Hamburger />
