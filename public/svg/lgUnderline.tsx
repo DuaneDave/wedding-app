@@ -1,0 +1,19 @@
+const LgUnderline = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="152"
+    height="12"
+    viewBox="0 0 152 12"
+    fill="none"
+  >
+    <path
+      d="M1 9.21827C15.3836 9.21825 21.1786 -4.36703 34.0357 3.396C50.1071 13.0998 68.8958 5.64272 79.5714 3.396C87.3014 1.76921 92.0714 -0.485519 107.25 9.21827C117.788 15.9554 132.507 1.26254 151 3.396"
+      stroke="#C18F48"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+
+export default LgUnderline;

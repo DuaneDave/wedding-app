@@ -65,10 +65,22 @@ ul {
   list-style: none;
 }
 
+p {
+  font-weight: 400;
+}
+
 button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex-fluid {
+  flex-direction: column
 }
 
 .flex {
@@ -130,5 +142,9 @@ button {
 @media screen and (min-width: 768px) {
   .swiper-slide img {
     height: 180px;
+  }
+
+  .flex-fluid {
+    flex-direction: row;
   }
 }
