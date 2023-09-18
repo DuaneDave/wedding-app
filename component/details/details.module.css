@@ -29,7 +29,7 @@
 }
 
 .leftSide img {
-  height: 400px;
+  height: 300px;
 }
 
 .leftSide h3,
@@ -202,6 +202,10 @@
   .detailsMain > svg:last-of-type {
     left: unset;
     right: 0;
+  }
+
+  .leftSide img {
+    height: 400px;
   }
 
   .action {
