@@ -1,6 +1,6 @@
 .slideContainer {
   position: relative;
-  margin-block: 5rem;
+  margin-block: 10rem;
 }
 
 .slide div:not(:last-of-type) {
