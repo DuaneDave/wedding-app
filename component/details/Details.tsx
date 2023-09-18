@@ -35,7 +35,7 @@ function Details() {
 
           <Image
             src={couples}
-            // className="full-width full-height"
+            className="full-width"
             alt="couples"
           />
         </div>

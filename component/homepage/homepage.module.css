@@ -169,7 +169,7 @@
 }
 
 .eventContainer {
-  margin-top: 7rem;
+  margin-block: 7rem 10rem;
 }
 
 .details {

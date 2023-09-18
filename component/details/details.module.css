@@ -1,5 +1,7 @@
 .detailsMain {
   position: relative;
+  margin-block: 10rem 12rem;
+  overflow: hidden;
 }
 
 .detailsMain > svg {
@@ -24,6 +26,10 @@
   max-width: 16ch;
   margin-bottom: 2.5rem;
   font-size: 28px;
+}
+
+.leftSide img {
+  height: 400px;
 }
 
 .leftSide h3,
