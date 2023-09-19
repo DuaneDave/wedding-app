@@ -74,9 +74,28 @@ function Navigation() {
                 scale: 1.1,
               }}
             >
-              <Link href="/rsvp">RSVP</Link>
+              <Link href="/venue">The Venue</Link>
             </motion.li>
-  
+            <motion.li
+              whileHover={{
+                color: 'var(--dark-color)',
+                textDecoration: 'underline',
+                transformOrigin: 'top left',
+                scale: 1.1,
+              }}
+            >
+              <Link href="/gallery">Gallery</Link>
+            </motion.li>
+            <motion.li
+              whileHover={{
+                color: 'var(--dark-color)',
+                textDecoration: 'underline',
+                transformOrigin: 'top left',
+                scale: 1.1,
+              }}
+            >
+              <Link href="/menu">Menu</Link>
+            </motion.li>
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
@@ -87,7 +106,7 @@ function Navigation() {
             >
               <Link href="/qna">Q&A</Link>
             </motion.li>
-            
+
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
@@ -111,13 +130,26 @@ function Navigation() {
                   className={`flex ${styles.mobileMenu}`}
                 >
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/rsvp">
-                      RSVP
+                    <Link onClick={() => setOpen(!open)} href="/venue">
+                      The Venue
                     </Link>
                   </motion.li>
+
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/program">
-                      Our Program
+                    <Link onClick={() => setOpen(!open)} href="/gallery">
+                      Gallery
+                    </Link>
+                  </motion.li>
+
+                  <motion.li>
+                    <Link onClick={() => setOpen(!open)} href="/menu">
+                      Menu
+                    </Link>
+                  </motion.li>
+
+                  <motion.li>
+                    <Link onClick={() => setOpen(!open)} href="/faq">
+                      Q&A
                     </Link>
                   </motion.li>
                   <motion.li>
