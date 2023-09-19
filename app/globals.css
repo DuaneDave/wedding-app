@@ -8,19 +8,32 @@
   font-family: 'Telma';
   src: url('/fonts/telma/Telma-Regular.woff2') format('woff2');
   font-weight: 400;
-  font-style: Bold;
+  font-style: Regular;
 }
 @font-face {
   font-family: 'Telma';
   src: url('/fonts/telma/Telma-Medium.woff2') format('woff2');
   font-weight: 500;
-  font-style: Bold;
+  font-style: Medium;
 }
 @font-face {
   font-family: 'Telma';
   src: url('/fonts/telma/Telma-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: Bold;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/generalSans/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: Medium;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/generalSans/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: Regular;
 }
 
 ::-webkit-scrollbar {
@@ -38,6 +51,7 @@
 
   --font-bonny: 'Bonny', sans-serif;
   --font-telma: 'Telma', sans-serif;
+  --font-general: 'General Sans', sans-serif;
 }
 
 * {

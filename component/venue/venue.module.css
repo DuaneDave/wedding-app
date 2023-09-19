@@ -1,0 +1,108 @@
+.venueContent {
+  margin-top: 2.5rem;
+}
+
+.venueContent h2 {
+  font-size: clamp(28px, 5vw, 34px);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.venueContent p {
+  font-size: clamp(16px, 5vw, 18px);
+}
+
+.header {
+  margin-bottom: 2.5rem;
+}
+
+.header > div:last-of-type {
+  width: 70%;
+  height: 4px;
+  background: #dddbdb;
+  margin-top: 0.8rem;
+}
+
+.header > div:last-of-type span {
+  background: var(--secondary-color);
+  height: 4px;
+  transform-origin: left;
+  display: block;
+  border-radius: 9px;
+}
+
+.headerActions {
+  justify-content: space-between;
+}
+
+.headerActions p {
+  font-size: clamp(20px, 5vw, 28px);
+  margin-left: 0.7rem;
+}
+
+.attend {
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.attend > button {
+  position: relative;
+  max-width: 161.866px;
+  height: 162.679px;
+}
+
+.attend span {
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  max-width: 150px;
+  height: 35px;
+  color: #f4ede0;
+  border-radius: 37px;
+  background: rgba(17, 17, 17, 0.07);
+  backdrop-filter: blur(15px);
+  font-family: var(--font-general);
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+.clipBoard {
+  max-width: 387px;
+  margin-top: 2rem;
+  border-radius: 4px;
+  background: #edeeee;
+  border: 0.3px solid #595757;
+  font-family: var(--font-general);
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+}
+
+.clipBoard > div:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.clipBoard span {
+  font-weight: 500;
+}
+
+.clipBoard span:not(:last-of-type) {
+  margin-top: 0.5rem;
+}
+
+.clipBoard > div {
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .attend > button {
+    max-width: 199px;
+    height: 200px;
+  }
+
+  .attend span {
+    bottom: 1.8rem;
+    max-width: 175px;
+    height: 35px;
+  }
+}
