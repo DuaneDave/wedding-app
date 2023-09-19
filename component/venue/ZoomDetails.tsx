@@ -1,10 +1,17 @@
+'use client'
 
+import {useState} from 'react'
 
 import styles from './venue.module.css';
 
 import ClipBoard from '@/public/svg/clipboard';
 
 function ZoomDetails() {
+  const [copied, setCopied] = useState(false)
+
+  const handleCopy = (text : string) => {
+    navigator.clipboard.writeText(text);
+  };
 
   return (
     <div className={`full-width ${styles.clipBoard}`}>
@@ -14,7 +21,7 @@ function ZoomDetails() {
           <span>12984721942231</span>
         </p>
 
-        <button>
+        <button onClick={() => handleCopy('12984721942231')}>
           <ClipBoard />
         </button>
       </div>
@@ -25,7 +32,7 @@ function ZoomDetails() {
           <span>12984721942231</span>
         </p>
 
-        <button>
+        <button onClick={() => handleCopy('12984721942231')}>
           <ClipBoard />
         </button>
       </div>
