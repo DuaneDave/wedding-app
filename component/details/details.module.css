@@ -1,19 +1,5 @@
 .detailsMain {
-  position: relative;
   margin-block: 10rem 12rem;
-  overflow: hidden;
-}
-
-.detailsMain > svg {
-  position: absolute;
-  top: 15%;
-  left: -0.5rem;
-}
-
-.detailsMain > svg:last-of-type {
-  left: unset;
-  top: 50%;
-  right: -2rem;
 }
 
 .detailsContainer {
@@ -29,7 +15,7 @@
 }
 
 .leftSide img {
-  height: 300px;
+  height: 320px;
 }
 
 .leftSide h3,
@@ -194,18 +180,8 @@
     grid-template-columns: 0.8fr 1fr;
   }
 
-  .detailsMain > svg {
-    top: 20%;
-    left: 0;
-  }
-
-  .detailsMain > svg:last-of-type {
-    left: unset;
-    right: 0;
-  }
-
   .leftSide img {
-    height: 400px;
+    height: unset;
   }
 
   .action {

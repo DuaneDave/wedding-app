@@ -7,7 +7,7 @@ import Details from '@/component/details/Details';
 export default function Home() {
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       <HeroSection />
       <Event />
       <SlideShow />

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import styles from './details.module.css';
 
-import couples from '@/public/images/slide3.png';
+import couples from '@/public/images/image4.jpg';
 
 import LgUnderline from '@/public/svg/lgUnderline';
 import Download from './Download'
@@ -14,7 +14,7 @@ import LeftDesign from '@/public/svg/leftZigZag';
 
 function Details() {
   return (
-    <section className={styles.detailsMain}>
+    <section className={`section-styled ${styles.detailsMain}`}>
       <LeftDesign />
       <div className={`container grid ${styles.detailsContainer}`}>
         <div className={`${styles.leftSide}`}>

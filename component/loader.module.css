@@ -30,6 +30,22 @@
 }
 
 .overlay2 img {
+  margin-top: 3rem;
   object-fit: contain;
   display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .overlay2 div {
+    display: grid;
+    grid-template-columns: repeat(3, 100vw);
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+  }
+
+  .overlay2 img {
+    object-fit: contain;
+    display: inline-block;
+  }
 }

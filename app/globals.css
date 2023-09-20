@@ -94,7 +94,7 @@ button {
 }
 
 .flex-fluid {
-  flex-direction: column
+  flex-direction: column;
 }
 
 .flex {
@@ -153,6 +153,27 @@ button {
   object-fit: cover;
 }
 
+.section-styled {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-styled > svg {
+  position: absolute;
+  top: 15%;
+  left: -0.5rem;
+}
+
+.section-styled > svg:last-of-type {
+  left: unset;
+  top: 50%;
+  right: -0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
   .swiper-slide img {
     height: 180px;
@@ -160,5 +181,27 @@ button {
 
   .flex-fluid {
     flex-direction: row;
+  }
+
+  .section-styled > svg {
+    top: 20%;
+    left: -1.5rem;
+  }
+
+  .section-styled > svg:last-of-type {
+    left: unset;
+    right: -3rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .section-styled > svg {
+    top: 20%;
+    left: 0;
+  }
+
+  .section-styled > svg:last-of-type {
+    left: unset;
+    right: 0;
   }
 }

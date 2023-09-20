@@ -4,10 +4,14 @@ import Image from 'next/image';
 import styles from './loader.module.css';
 import { motion } from 'framer-motion';
 
+import useWindowSize from '@/hooks/useWindowSize';
 import greetingText from '../public/images/greetingText.png';
+import greetingTextMobile from '../public/images/greetingTextMobile.png';
 import logo from '../public/images/logo.png';
 
 export default function Loader() {
+  const { width } = useWindowSize();
+
   return (
     <motion.div
       initial={{ y: 0 }}
@@ -51,17 +55,17 @@ export default function Loader() {
         >
           <Image
             className="full-width"
-            src={greetingText}
+            src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
           />
           <Image
             className="full-width"
-            src={greetingText}
+            src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
           />
           <Image
             className="full-width"
-            src={greetingText}
+            src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
           />
         </motion.div>
