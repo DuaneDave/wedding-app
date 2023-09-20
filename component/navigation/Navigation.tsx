@@ -86,16 +86,7 @@ function Navigation() {
             >
               <Link href="/gallery">Gallery</Link>
             </motion.li>
-            <motion.li
-              whileHover={{
-                color: 'var(--dark-color)',
-                textDecoration: 'underline',
-                transformOrigin: 'top left',
-                scale: 1.1,
-              }}
-            >
-              <Link href="/menu">Menu</Link>
-            </motion.li>
+
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
@@ -138,12 +129,6 @@ function Navigation() {
                   <motion.li>
                     <Link onClick={() => setOpen(!open)} href="/gallery">
                       Gallery
-                    </Link>
-                  </motion.li>
-
-                  <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/menu">
-                      Menu
                     </Link>
                   </motion.li>
 

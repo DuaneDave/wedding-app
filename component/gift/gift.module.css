@@ -1,0 +1,79 @@
+.giftContainer {
+  text-align: center;
+  margin-block: 4rem;
+}
+
+.giftContainer h1 {
+  font-size: clamp(28px, 5vw, 40px);
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.giftContainer h2 {
+  font-weight: 700;
+  font-size: clamp(24px, 5vw, 32px);
+  color: #c18779;
+  margin-bottom: 16.45px;
+}
+
+.giftContainer > p {
+  font-family: var(--font-general);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-size: clamp(18px, 3vw, 24px);
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  text-align: left;
+  background: white;
+  max-width: 968px;
+  padding: 1rem;
+  border-radius: 19px;
+  font-family: var(--font-general);
+  margin: 0 auto;
+}
+
+.contacts > div:first-of-type {
+  background: var(--dark-color-1);
+  text-align: center;
+  color: #f4ede0;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 1rem 1.5rem;
+}
+
+.details {
+  gap: 2rem;
+  margin-top: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.details > div {
+  justify-content: space-between;
+  border-radius: 18px;
+  background: #fafafa;
+  padding: 1rem;
+  width: 100%;
+  /* max-width: 300px; */
+}
+
+.details > div h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.details > div p {
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    padding: 4rem;
+  }
+  
+  .details {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

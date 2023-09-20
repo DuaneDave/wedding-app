@@ -1,5 +1,6 @@
 .detailsMain {
-  margin-block: 10rem 12rem;
+  margin-block: 10rem 4rem;
+  padding-bottom: 5rem;
 }
 
 .detailsContainer {
@@ -168,6 +169,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .detailsMain {
+    margin-block: 10rem 12rem;
+  }
+
   .detailsContainer {
     padding-inline: 1rem;
   }

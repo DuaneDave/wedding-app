@@ -53,6 +53,71 @@ const gallery = [
     title: 'Image 8',
     url: image8,
   },
+  
+  {
+    id: 7,
+    title: 'Image 7',
+    url: image7,
+  },
+  {
+    id: 8,
+    title: 'Image 8',
+    url: image8,
+  },
+  {
+    id: 9,
+    title: 'Image 8',
+    url: image8,
+  },
+  
+  {
+    id: 7,
+    title: 'Image 7',
+    url: image7,
+  },
+  {
+    id: 8,
+    title: 'Image 8',
+    url: image8,
+  },
+  {
+    id: 9,
+    title: 'Image 8',
+    url: image8,
+  },
+  
+  {
+    id: 7,
+    title: 'Image 7',
+    url: image7,
+  },
+  {
+    id: 8,
+    title: 'Image 8',
+    url: image8,
+  },
+  {
+    id: 9,
+    title: 'Image 8',
+    url: image8,
+  },
+  
+  {
+    id: 7,
+    title: 'Image 7',
+    url: image7,
+  },
+  {
+    id: 8,
+    title: 'Image 8',
+    url: image8,
+  },
+  {
+    id: 9,
+    title: 'Image 8',
+    url: image8,
+  },
+  
 ];
 
 export default gallery;

@@ -9,6 +9,7 @@
 
 .image {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .image img {
