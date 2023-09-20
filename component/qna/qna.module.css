@@ -1,0 +1,48 @@
+.qnaContainer {
+  text-align: center;
+  margin-block: 4rem;
+}
+
+.qnaContainer h1 {
+  font-size: clamp(28px, 5vw, 40px);
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.qnaContainer h2 {
+  font-weight: 700;
+  font-size: clamp(24px, 5vw, 32px);
+  color: #c18779;
+  margin-bottom: 16.45px;
+}
+
+.qnaContainer p {
+  font-family: var(--font-general);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-size: clamp(18px, 3vw, 24px);
+}
+
+.qnaContainer > p {
+  margin-bottom: 4rem;
+}
+
+.question {
+  text-align: left;
+  border-bottom: 0.4px solid #595757;
+}
+
+.question p {
+  max-width: 60ch;
+}
+
+.question:not(:last-child) {
+  margin-bottom: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .qnaContainer > p {
+    margin-bottom: 6rem;
+  }
+}
