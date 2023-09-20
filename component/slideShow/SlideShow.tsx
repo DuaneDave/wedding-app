@@ -6,10 +6,10 @@ import SlideLowerArrow from '@/public/svg/slideLowerArrow';
 import SlideUpperArrow from '@/public/svg/slideUpperArrow';
 import Slide from './Slide';
 
-import slide1 from '@/public/images/image1.jpg';
-import slide2 from '@/public/images/image2.jpg';
-import slide3 from '@/public/images/image3.jpg';
-import slide4 from '@/public/images/image4.jpg';
+import slide1 from '@/public/images/imageone.jpg';
+import slide2 from '@/public/images/imagetwo.jpg';
+import slide3 from '@/public/images/imagethree.jpg';
+import slide4 from '@/public/images/imagefour.jpg';
 
 function SlideShow() {
   return (
