@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import styles from './details.module.css';
 
-import couples from '@/public/images/image4.jpg';
+import couples from '@/public/images/imagefour.jpg';
 
 import LgUnderline from '@/public/svg/lgUnderline';
 import Download from './Download'
