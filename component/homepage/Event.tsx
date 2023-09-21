@@ -19,7 +19,7 @@ function Event() {
               </div>
 
               <p className={styles.eventText}>
-                Saturday, <br /> June 23rd 2023
+                Saturday, <br /> December 2nd 2023
               </p>
             </div>
             <Date />
@@ -34,7 +34,7 @@ function Event() {
               </div>
 
               <p className={styles.eventText}>
-                The Dorchester <br /> Event Center
+                18 or 38 Oshindehin <br /> str., Orile Ogba <br /> Agege, Lagos State.
               </p>
             </div>
           </div>

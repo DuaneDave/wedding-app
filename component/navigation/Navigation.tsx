@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import styles from './navigation.module.css';
@@ -12,6 +13,7 @@ import CancelIcon from '@/public/svg/cancelIcon';
 function Navigation() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,14 +45,16 @@ function Navigation() {
           className="full-width"
         >
           <p className="full-width">
-            Disclaimer: Please note that the wedding is an invitation-only
-            event. If you have not received an invitation, we kindly request
-            that you do not attend.
+            Disclaimer: There will not be a reception after the event, but food
+            and drinks will be available for all attendees.
           </p>
           <p className="full-width">
-            Disclaimer: Please note that the wedding is an invitation-only
-            event. If you have not received an invitation, we kindly request
-            that you do not attend.
+            Disclaimer: There will not be a reception after the event, but food
+            and drinks will be available for all attendees.
+          </p>
+          <p className="full-width">
+            Disclaimer: There will not be a reception after the event, but food
+            and drinks will be available for all attendees.
           </p>
         </motion.span>
       </div>
@@ -69,44 +73,64 @@ function Navigation() {
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
-                textDecoration: 'underline',
+                borderBottom: '2px solid var(--dark-color)',
                 transformOrigin: 'top left',
                 scale: 1.1,
               }}
             >
-              <Link href="/venue">The Venue</Link>
+              <Link
+                className={pathname === '/venue' ? styles.active : ''}
+                href="/venue"
+              >
+                The Venue
+              </Link>
             </motion.li>
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
-                textDecoration: 'underline',
+                borderBottom: '2px solid var(--dark-color)',
                 transformOrigin: 'top left',
                 scale: 1.1,
               }}
             >
-              <Link href="/gallery">Gallery</Link>
+              <Link
+                className={pathname === '/gallery' ? styles.active : ''}
+                href="/gallery"
+              >
+                Gallery
+              </Link>
             </motion.li>
 
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
-                textDecoration: 'underline',
+                borderBottom: '2px solid var(--dark-color)',
                 transformOrigin: 'top left',
                 scale: 1.1,
               }}
             >
-              <Link href="/qna">Q&A</Link>
+              <Link
+                className={pathname === '/qna' ? styles.active : ''}
+                href="/qna"
+              >
+                Q&A
+              </Link>
             </motion.li>
 
             <motion.li
               whileHover={{
                 color: 'var(--dark-color)',
-                textDecoration: 'underline',
+                borderBottom: '2px solid var(--dark-color)',
                 transformOrigin: 'top left',
                 scale: 1.1,
               }}
             >
-              <Link href="/gift">Gift</Link>
+              <Link
+                className={pathname === '/gift' ? styles.active : ''}
+                href="/gift"
+              >
+                Gift
+              </Link>
             </motion.li>
           </ul>
 
@@ -121,24 +145,40 @@ function Navigation() {
                   className={`flex ${styles.mobileMenu}`}
                 >
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/venue">
+                    <Link
+                      className={pathname === '/' ? styles.active : ''}
+                      onClick={() => setOpen(!open)}
+                      href="/venue"
+                    >
                       The Venue
                     </Link>
                   </motion.li>
 
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/gallery">
+                    <Link
+                      className={pathname === '/gallery' ? styles.active : ''}
+                      onClick={() => setOpen(!open)}
+                      href="/gallery"
+                    >
                       Gallery
                     </Link>
                   </motion.li>
 
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/faq">
+                    <Link
+                      className={pathname === '/qna' ? styles.active : ''}
+                      onClick={() => setOpen(!open)}
+                      href="/qna"
+                    >
                       Q&A
                     </Link>
                   </motion.li>
                   <motion.li>
-                    <Link onClick={() => setOpen(!open)} href="/gift">
+                    <Link
+                      className={pathname === '/gift' ? styles.active : ''}
+                      onClick={() => setOpen(!open)}
+                      href="/gift"
+                    >
                       Gift
                     </Link>
                   </motion.li>

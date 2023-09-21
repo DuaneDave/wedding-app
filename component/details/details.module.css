@@ -16,7 +16,7 @@
 }
 
 .leftSide img {
-  height: 320px;
+  height: 250px;
 }
 
 .leftSide h3,
@@ -103,7 +103,7 @@
 }
 
 .timeline {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .timeline li {
@@ -148,7 +148,7 @@
   transform: translateX(-50%);
 }
 
-.timeline li:nth-of-type(10) span::after {
+.timeline li:nth-of-type(5) span::after {
   bottom: 0;
   top: unset;
 }

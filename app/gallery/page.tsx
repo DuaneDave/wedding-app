@@ -4,7 +4,7 @@ import Loader from '@/component/Loader';
 function page() {
   return (
     <>
-      {/* <Loader /> */}
+      <Loader />
       <Gallery />
     </>
   );

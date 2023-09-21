@@ -4,8 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-import husband from '@/public/images/husband.png';
-import wife from '@/public/images/wife.png';
+import husband from '@/public/images/husband.jpeg';
+import wife from '@/public/images/wife.jpeg';
 import Date from './Date';
 
 import styles from './homepage.module.css';

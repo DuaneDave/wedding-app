@@ -33,7 +33,7 @@ function Gallery() {
     <section className={`section-styled ${styles.gallery}`}>
       <LeftDesign />
 
-      <div className={`container grid center ${styles.galleryContainer}`}>
+      <div className={`container ${styles.galleryContainer}`}>
         {gallery.map((img) => (
           <motion.div
             className={styles.image}
@@ -51,6 +51,7 @@ function Gallery() {
                 onClick={() => setActiveImage({ img: img.url, id: img.title })}
                 src={img.url}
                 alt={img.title}
+                className='full-width full-height'
               />
             </motion.div>
           </motion.div>

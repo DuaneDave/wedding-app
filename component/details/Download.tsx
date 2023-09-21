@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 import styles from './details.module.css';
 
@@ -25,7 +26,9 @@ function Download() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          Download Program
+          <a href="/file/Welcome.pdf" target='_blank' download={'Welcome.pdf'}>
+            Download Program
+          </a>
         </motion.span>
       )}
     </motion.button>
