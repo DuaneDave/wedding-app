@@ -1,34 +1,30 @@
 const qna = [
   {
     id: 1,
-    question: 'When and where is the wedding taking place?',
-    answer:
-      'We are excited to invite you to celebrate our love on [Wedding Date] at [Wedding Venue]. Join us as we exchange vows and begin our journey together.',
+    question: 'Where is the wedding taking place?',
+    answer: 'Lagos Nigeria, you can find out more on the Venue page.',
   },
   {
     id: 2,
-    question: 'What is the dress code for the wedding?',
-    answer:
-      'The dress code for our wedding is [Specify dress code]. We kindly request that our guests adhere to the dress code, as it will help create a cohesive atmosphere and add to the overall elegance of the occasion.',
+    question: 'Is there a reception venue?',
+    answer: 'There is no reception.',
   },
   {
     id: 3,
-    question: 'Are children welcome at the wedding?',
-    answer:
-      'While we adore children, we have decided to make our wedding an adults-only affair. We appreciate your understanding in allowing all our guests to enjoy an evening of relaxation and celebration.',
+    question: 'Will refreshment be provided?',
+    answer: 'Yes, food and drinks will be available for everyone.',
   },
   {
     id: 4,
-    question:
-      'Are there any cultural or religious customs that we should be aware of during the ceremony?',
+    question: 'What is the dresscode?',
     answer:
-      "Our wedding ceremony will encompass elements from both of our cultural backgrounds. We are excited to share these customs with you, and we will provide a brief explanation of the traditions during the ceremony. It's a beautiful blend of cultures that truly reflects our love story.",
+      "There is no formal dress code, so feel free to wear whatever you want. You can choose a color from the color palette on the homepage if you'd like. The main thing is to wear something you feel comfortable and happy in.",
   },
   {
     id: 5,
-    question: 'How do I RSVP for the wedding?',
+    question: 'Can I come even though I was not invited?',
     answer:
-      'To RSVP for the wedding, please visit the RSVP page on our wedding website and search for your name, if you see your name fill the form displayed.',
+      'If you did not receive a formal invitation, please do not attend the in-person event as space is limited. However, you are welcome to join via Zoom - the Zoom details will be provided 3 days before the wedding date. This way you can still participate remotely if an invitation was not sent to you for the physical venue.',
   },
 ];
 
