@@ -116,10 +116,13 @@
   bottom: -0.4rem;
 }
 
-.subDate,
-.imageContainer > div:first-of-type > p,
-.imageContainer > div:last-of-type > p {
+.subDate {
   font-size: 12px !important;
+}
+
+.imageContainer > div > p {
+  font-size: 16px !important;
+  font-weight: 500;
 }
 
 .date {
@@ -167,7 +170,7 @@
 
   .imageContainer > div:first-of-type > p,
   .imageContainer > div:last-of-type > p {
-    font-size: 15px;
+    font-size: 18px !important;
   }
 }
 

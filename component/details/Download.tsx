@@ -1,21 +1,26 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 import styles from './details.module.css';
 
+import useWindowSize from '@/hooks/useWindowSize';
 import DownloadIcon from '@/public/svg/downloadIcon';
 
 function Download() {
   const [isVisible, setIsVisible] = useState<boolean>(false);
+  const { width } = useWindowSize();
+
+  useEffect(() => {
+    if (width && width < 768) setIsVisible(true);
+  }, [width]);
 
   return (
     <motion.button
       transition={{ duration: 0.5 }}
-      onMouseEnter={() => setIsVisible(!isVisible)}
-      onMouseLeave={() => setIsVisible(!isVisible)}
+      onMouseEnter={() => width && width > 768 && setIsVisible(!isVisible)}
+      onMouseLeave={() => width && width > 768 && setIsVisible(!isVisible)}
       className={`flex align-y ${styles.button}`}
     >
       <DownloadIcon />
@@ -26,7 +31,7 @@ function Download() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <a href="/file/Welcome.pdf" target='_blank' download={'Welcome.pdf'}>
+          <a href="/file/Welcome.pdf" target="_blank" download={'Welcome.pdf'}>
             Download Program
           </a>
         </motion.span>

@@ -9,7 +9,7 @@ function ZoomDetails() {
       <div className={`flex`}>
         <p className="flex flex-col">
           Zoom ID
-          <span>12984721942231</span>
+          <span>Check back on 29/11/2023</span>
         </p>
 
         <Copy text="12984721942231" />
@@ -17,8 +17,8 @@ function ZoomDetails() {
 
       <div className={`flex`}>
         <p className="flex flex-col">
-          Zoom ID
-          <span>12984721942231</span>
+          Password
+          <span>Check back on 29/11/2023</span>
         </p>
 
         <Copy text="12984721942231" />
