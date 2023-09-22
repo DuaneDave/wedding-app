@@ -6,7 +6,7 @@ import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 
-import shimmer, { toBase64 } from '@/utils/helper/toBase64';
+import dataUrl from '@/utils/data/dataUrl';
 
 function Slide({ image, reverse }: { image: any[]; reverse?: boolean }) {
   return (
@@ -35,9 +35,7 @@ function Slide({ image, reverse }: { image: any[]; reverse?: boolean }) {
           <SwiperSlide key={index}>
             <Image
               placeholder="blur"
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                shimmer(700, 475)
-              )}`}
+              blurDataURL={Object.values(dataUrl.slide)[index]}
               src={item}
               alt="slide"
             />

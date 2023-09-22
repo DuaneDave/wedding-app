@@ -4,12 +4,12 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-import shimmer, { toBase64 } from '@/utils/helper/toBase64';
+import styles from './homepage.module.css';
+import dataUrl from '@/utils/data/dataUrl';
 import husband from '@/public/images/husband.jpeg';
 import wife from '@/public/images/wife.jpeg';
 import Date from './Date';
 
-import styles from './homepage.module.css';
 
 function HeroSection() {
   return (
@@ -46,10 +46,8 @@ function HeroSection() {
               data-scroll-speed="-0.2"
             >
               <Image
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(700, 475)
-                )}`}
                 placeholder="blur"
+                blurDataURL={dataUrl.hero.wife}
                 src={wife}
                 alt="wife"
               />
@@ -65,10 +63,8 @@ function HeroSection() {
               data-scroll-speed="0.1"
             >
               <Image
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(700, 475)
-                )}`}
                 placeholder="blur"
+                blurDataURL={dataUrl.hero.husband}
                 src={husband}
                 alt="husband"
               />
