@@ -2,6 +2,13 @@
   height: 60dvh;
 }
 
+.eventContainer {
+  background: var(--primary-color);
+  z-index: 100;
+  position: relative;
+  padding-block: 0.5rem;
+}
+
 .imageContainer,
 .heroContainer {
   position: relative;

@@ -6,8 +6,6 @@ import type { StaticImageData } from 'next/image';
 
 import styles from './gallery.module.css';
 
-import CancelIcon from '@/public/svg/cancelIcon';
-
 type ModalProps = {
   img: { img: StaticImageData; id: string };
   onClose: (state: { img: StaticImageData; id: string } | null) => void;
@@ -32,7 +30,7 @@ function Modal({ img, onClose }: ModalProps) {
           transition={{ duration: 0.5, type: 'spring', damping: 15 }}
           layoutId={img.id}
         >
-          <Image src={img.img} alt="husband" />
+          <Image placeholder="blur" src={img.img} alt="husband" />
         </motion.div>
       </div>
     </>

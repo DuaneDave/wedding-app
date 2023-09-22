@@ -1,10 +1,8 @@
-
-
 .scrolled {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  z-index: 20;
+  z-index: 200000;
   background: rgba(231, 232, 232, 0.25);
   backdrop-filter: blur(11.5px);
   -webkit-backdrop-filter: blur(11.5px);
@@ -29,11 +27,11 @@
 
 .navigation {
   justify-content: space-between;
-  padding: 1rem 0 0.3rem 0;
+  padding: 1.5rem 0 0.5rem 0;
   font-size: clamp(20px, 2vw, 28px);
   color: var(--dark-color-1);
   position: relative;
-  z-index: 20;
+  z-index: 200000;
 }
 
 .navigation > span {

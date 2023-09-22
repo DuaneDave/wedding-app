@@ -5,6 +5,7 @@ import styles from './details.module.css';
 
 import couples from '@/public/images/couples.jpg';
 
+import dataUrl from '@/utils/data/dataUrl';
 import LgUnderline from '@/public/svg/lgUnderline';
 import Download from './Download'
 import Agenda from './Agenda';
@@ -37,6 +38,8 @@ function Details() {
             src={couples}
             className="full-width"
             alt="couples"
+            placeholder="blur"
+            blurDataURL={dataUrl.couple}
           />
         </div>
 

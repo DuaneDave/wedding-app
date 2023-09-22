@@ -8,7 +8,7 @@ import Arrows from '../ui/Arrows';
 
 function Event() {
   return (
-    <section>
+    <section className={styles.eventContainer}>
       <div className={`container full-width ${styles.eventContainer}`}>
         <div className={` flex flex-col ${styles.event}`}>
           <div className={`flex flex-col ${styles.details}`}>

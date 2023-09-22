@@ -146,7 +146,7 @@ function Navigation() {
                 >
                   <motion.li>
                     <Link
-                      className={pathname === '/' ? styles.active : ''}
+                      className={pathname === '/venue' ? styles.active : ''}
                       onClick={() => setOpen(!open)}
                       href="/venue"
                     >
