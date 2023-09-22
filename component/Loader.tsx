@@ -14,9 +14,9 @@ export default function Loader() {
 
   return (
     <motion.div
-      initial={{ y: 0 }}
-      animate={{ y: '-100%' }}
-      transition={{ delay: 9, duration: 1 }}
+      // initial={{ y: 0 }}
+      // animate={{ y: '-100%' }}
+      // transition={{ delay: 9, duration: 1 }}
       className={`full-width full-height ${styles.loaderContainer}`}
     >
       <motion.div
@@ -41,7 +41,7 @@ export default function Loader() {
         className={styles.overlay2}
       >
         <motion.div
-          className="flex"
+          className="grid"
           initial={{ x: '-200%' }}
           animate={{ x: '0' }}
           transition={{
@@ -53,7 +53,7 @@ export default function Loader() {
             repeatDelay: 1,
           }}
         >
-          <Image
+          {/* <Image
             className="full-width"
             src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
@@ -67,7 +67,11 @@ export default function Loader() {
             className="full-width"
             src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
-          />
+          /> */}
+
+          <p>Jessy & Inyene</p>
+          <p>Jessy & Inyene</p>
+          <p>Jessy & Inyene</p>
         </motion.div>
       </motion.div>
     </motion.div>
