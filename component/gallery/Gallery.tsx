@@ -7,7 +7,6 @@ import type { StaticImageData } from 'next/image';
 
 import styles from './gallery.module.css';
 
-import shimmer, { toBase64 } from '@/utils/helper/toBase64';
 import RightDesign from '@/public/svg/rightZigZag';
 import LeftDesign from '@/public/svg/leftZigZag';
 import gallery from '@/utils/data/gallery';
@@ -52,9 +51,6 @@ function Gallery() {
                 onClick={() => setActiveImage({ img: img.url, id: img.title })}
                 src={img.url}
                 alt={img.title}
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(700, 475)
-                )}`}
                 placeholder="blur"
                 className="full-width full-height"
               />
