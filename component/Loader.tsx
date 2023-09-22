@@ -14,9 +14,9 @@ export default function Loader() {
 
   return (
     <motion.div
-      // initial={{ y: 0 }}
-      // animate={{ y: '-100%' }}
-      // transition={{ delay: 9, duration: 1 }}
+      initial={{ y: 0 }}
+      animate={{ y: '-100%' }}
+      transition={{ delay: 9, duration: 1 }}
       className={`full-width full-height ${styles.loaderContainer}`}
     >
       <motion.div
