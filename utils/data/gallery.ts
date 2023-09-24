@@ -10,6 +10,18 @@ import image8 from '../../public/images/image9.jpg';
 import image10 from '../../public/images/slide1.jpg';
 import image11 from '../../public/images/slide2.jpg';
 import image12 from '../../public/images/slide5.jpg';
+import image13 from '../../public/images/image13.jpg';
+import image14 from '../../public/images/image14.jpg';
+import image15 from '../../public/images/image15.jpg';
+import image16 from '../../public/images/image16.jpg';
+import image17 from '../../public/images/image17.jpg';
+import image18 from '../../public/images/image18.jpg';
+import image19 from '../../public/images/image19.jpg';
+import image20 from '../../public/images/image20.jpg';
+import image21 from '../../public/images/image21.jpg';
+import image22 from '../../public/images/image22.jpg';
+import image23 from '../../public/images/image23.jpg';
+import image24 from '../../public/images/image24.jpg';
 
 const gallery = [
   {
@@ -71,6 +83,66 @@ const gallery = [
     id: 12,
     title: 'Image 12',
     url: image12,
+  },
+  {
+    id: 13,
+    title: 'Image 13',
+    url: image13,
+  },
+  {
+    id: 14,
+    title: 'Image 14',
+    url: image14,
+  },
+  {
+    id: 15,
+    title: 'Image 15',
+    url: image15,
+  },
+  {
+    id: 16,
+    title: 'Image 16',
+    url: image16,
+  },
+  {
+    id: 17,
+    title: 'Image 17',
+    url: image17,
+  },
+  {
+    id: 18,
+    title: 'Image 18',
+    url: image18,
+  },
+  {
+    id: 19,
+    title: 'Image 19',
+    url: image19,
+  },
+  {
+    id: 20,
+    title: 'Image 20',
+    url: image20,
+  },
+  {
+    id: 21,
+    title: 'Image 21',
+    url: image21,
+  },
+  {
+    id: 22,
+    title: 'Image 22',
+    url: image22,
+  },
+  {
+    id: 23,
+    title: 'Image 23',
+    url: image23,
+  },
+  {
+    id: 24,
+    title: 'Image 24',
+    url: image24,
   },
 ];
 

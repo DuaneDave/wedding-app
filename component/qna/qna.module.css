@@ -33,12 +33,28 @@
   border-bottom: 0.4px solid #595757;
 }
 
+.question li,
 .question p {
   max-width: 60ch;
 }
 
 .question:not(:last-child) {
   margin-bottom: 34px;
+}
+
+.question ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+.question li {
+  font-size: clamp(14px, 3vw, 20px);
+  font-weight: 400;
+  font-family: var(--font-general);
+  margin-bottom: 1rem;
+}
+.question li:last-of-type {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {

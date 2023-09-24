@@ -68,7 +68,7 @@ function HeroSection() {
                 src={husband}
                 alt="husband"
               />
-              <p>☺️She said Ye</p>
+              <p>☺️She said Yes</p>
 
               <Date className={styles.subDate} />
             </motion.div>

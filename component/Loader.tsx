@@ -41,7 +41,7 @@ export default function Loader() {
         className={styles.overlay2}
       >
         <motion.div
-          className="grid"
+          className="flex"
           initial={{ x: '-200%' }}
           animate={{ x: '0' }}
           transition={{
@@ -53,11 +53,6 @@ export default function Loader() {
             repeatDelay: 1,
           }}
         >
-          {/* <Image
-            className="full-width"
-            src={width && width >= 768 ? greetingText : greetingTextMobile}
-            alt="greeting text"
-          />
           <Image
             className="full-width"
             src={width && width >= 768 ? greetingText : greetingTextMobile}
@@ -67,11 +62,12 @@ export default function Loader() {
             className="full-width"
             src={width && width >= 768 ? greetingText : greetingTextMobile}
             alt="greeting text"
-          /> */}
-
-          <p>Jessy & Inyene</p>
-          <p>Jessy & Inyene</p>
-          <p>Jessy & Inyene</p>
+          />
+          <Image
+            className="full-width"
+            src={width && width >= 768 ? greetingText : greetingTextMobile}
+            alt="greeting text"
+          />
         </motion.div>
       </motion.div>
     </motion.div>

@@ -22,30 +22,30 @@ function Gift() {
 
         <div className={`full-width ${styles.contacts}`}>
           <div className="full-width">
-            <p>Reach Out to them to get bank details</p>
+            <p>Reach Out to the couple to get bank details</p>
           </div>
 
           <div className={`grid center ${styles.details}`}>
             <div className='flex align-y'>
               <span>
-                <h2>Jackie Brown</h2>
-                <p>081027839134</p>
+                {/* <h2>Jackie Brown</h2> */}
+                <p>+447425192711</p>
               </span>
 
               <Copy text="081027839134" />
             </div>
             <div className='flex align-y'>
               <span>
-                <h2>Jackie Brown</h2>
-                <p>081027839134</p>
+                {/* <h2>Jackie Brown</h2> */}
+                <p>+447739756701</p>
               </span>
 
               <Copy text="081027839134" />
             </div>
             <div className='flex align-y'>
               <span>
-                <h2>Jackie Brown</h2>
-                <p>081027839134</p>
+                {/* <h2>Jackie Brown</h2> */}
+                <p>+2348035464923</p>
               </span>
 
               <Copy text="081027839134" />

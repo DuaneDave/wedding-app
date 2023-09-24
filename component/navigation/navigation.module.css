@@ -9,7 +9,7 @@
 }
 
 .notice {
-  background: var(--secondary-color);
+  background: #75241D;
   padding: 0.1rem 1rem;
   color: var(--primary-color);
   font-size: clamp(14px, 2vw, 20px);

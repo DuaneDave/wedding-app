@@ -6,7 +6,6 @@
   background: var(--primary-color);
   z-index: 100;
   position: relative;
-  padding-block: 0.5rem;
 }
 
 .imageContainer,
@@ -171,6 +170,10 @@
   .imageContainer > div:first-of-type > p,
   .imageContainer > div:last-of-type > p {
     font-size: 18px !important;
+  }
+
+  .eventContainer {
+    padding-block: 0.5rem;
   }
 }
 

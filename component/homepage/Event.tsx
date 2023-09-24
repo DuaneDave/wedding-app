@@ -34,7 +34,7 @@ function Event() {
               </div>
 
               <p className={styles.eventText}>
-                18 or 38 Oshindehin <br /> str., Orile Ogba <br /> Agege, Lagos State.
+                38 Oshindehin <br /> street, Orile Ogba <br /> Agege, Lagos State.
               </p>
             </div>
           </div>

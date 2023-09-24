@@ -20,6 +20,12 @@ function QnA() {
           <div key={qna.id} className={styles.question}>
             <h2>{qna.question}</h2>
             <p>{qna.answer}</p>
+            <ul>
+              {qna.details &&
+                qna?.details.map((detail, index) => (
+                  <li key={index}>{detail}</li>
+                ))}
+            </ul>
           </div>
         ))}
       </div>
