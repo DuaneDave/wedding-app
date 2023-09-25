@@ -22,7 +22,7 @@ function Gift() {
 
         <div className={`full-width ${styles.contacts}`}>
           <div className="full-width">
-            <p> Please reach out to the couple with the numbers below</p>
+            <p> Please reach out to the couple with the numbers below: </p>
           </div>
 
           <div className={`grid center ${styles.details}`}>
