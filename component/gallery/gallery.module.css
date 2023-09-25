@@ -29,7 +29,7 @@
   z-index: 4000000;
   width: 80%;
   height: 90%;
-  overflow: scroll;
+  overflow: auto;
   border-radius: 8px;
 }
 
