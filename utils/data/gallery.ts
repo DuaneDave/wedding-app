@@ -22,6 +22,23 @@ import image21 from '../../public/images/image21.jpg';
 import image22 from '../../public/images/image22.jpg';
 import image23 from '../../public/images/image23.jpg';
 import image24 from '../../public/images/image24.jpg';
+import image25 from '../../public/images/slide7.jpg';
+import image26 from '../../public/images/slide8.jpg';
+import image27 from '../../public/images/slide9.jpg';
+import image28 from '../../public/images/slide8.jpg';
+import image29 from '../../public/images/slide9.jpg';
+import image30 from '../../public/images/slide10.jpg';
+import image31 from '../../public/images/slide11.jpg';
+import image32 from '../../public/images/slide12.jpg';
+import image33 from '../../public/images/slide13.jpg';
+import image34 from '../../public/images/slide14.jpg';
+import image35 from '../../public/images/slide15.jpg';
+import image36 from '../../public/images/slide16.jpg';
+import image37 from '../../public/images/image25.jpg';
+import image38 from '../../public/images/image26.jpg';
+import image39 from '../../public/images/image27.jpg';
+import image40 from '../../public/images/image28.jpg';
+import image41 from '../../public/images/image29.jpg';
 
 const gallery = [
   {
@@ -143,6 +160,91 @@ const gallery = [
     id: 24,
     title: 'Image 24',
     url: image24,
+  },
+  {
+    id: 25,
+    title: 'Image 25',
+    url: image25,
+  },
+  {
+    id: 26,
+    title: 'Image 26',
+    url: image26,
+  },
+  {
+    id: 27,
+    title: 'Image 27',
+    url: image27,
+  },
+  {
+    id: 28,
+    title: 'Image 28',
+    url: image28,
+  },
+  {
+    id: 29,
+    title: 'Image 29',
+    url: image29,
+  },
+  {
+    id: 30,
+    title: 'Image 30',
+    url: image30,
+  },
+  {
+    id: 31,
+    title: 'Image 31',
+    url: image31,
+  },
+  {
+    id: 32,
+    title: 'Image 32',
+    url: image32,
+  },
+  {
+    id: 33,
+    title: 'Image 33',
+    url: image33,
+  },
+  {
+    id: 34,
+    title: 'Image 34',
+    url: image34,
+  },
+  {
+    id: 35,
+    title: 'Image 35',
+    url: image35,
+  },
+  {
+    id: 36,
+    title: 'Image 36',
+    url: image36,
+  },
+  {
+    id: 37,
+    title: 'Image 37',
+    url: image37,
+  },
+  {
+    id: 38,
+    title: 'Image 38',
+    url: image38,
+  },
+  {
+    id: 39,
+    title: 'Image 39',
+    url: image39,
+  },
+  {
+    id: 40,
+    title: 'Image 40',
+    url: image40,
+  },
+  {
+    id: 41,
+    title: 'Image 41',
+    url: image41,
   },
 ];
 
