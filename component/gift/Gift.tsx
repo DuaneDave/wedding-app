@@ -15,14 +15,12 @@ function Gift() {
       <div className={`container  ${styles.giftContainer}`}>
         <h1>Gifts & Contribution</h1>
         <p>
-          Your presence at our wedding is the greatest gift we could ask for. If
-          you would like to honor us with a gift, we appreciate your
-          thoughtfulness.
+          Having you present at our wedding is the most meaningful gift we could receive. If you would like to honor us with a gift, we kindly request for no boxed gifts. If you wish to give us something, please feel free to contact us using the provided contact information.
         </p>
 
         <div className={`full-width ${styles.contacts}`}>
           <div className="full-width">
-            <p> Please reach out to the couple with the numbers below: </p>
+            <p> Get in touch: </p>
           </div>
 
           <div className={`grid center ${styles.details}`}>
