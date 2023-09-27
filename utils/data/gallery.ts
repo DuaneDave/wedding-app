@@ -28,7 +28,6 @@ import image27 from '../../public/images/slide9.jpg';
 import image28 from '../../public/images/slide8.jpg';
 import image29 from '../../public/images/slide9.jpg';
 import image30 from '../../public/images/slide10.jpg';
-import image31 from '../../public/images/slide11.jpg';
 import image32 from '../../public/images/slide12.jpg';
 import image33 from '../../public/images/slide13.jpg';
 import image34 from '../../public/images/slide14.jpg';
