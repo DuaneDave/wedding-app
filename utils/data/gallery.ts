@@ -190,11 +190,7 @@ const gallery = [
     title: 'Image 30',
     url: image30,
   },
-  {
-    id: 31,
-    title: 'Image 31',
-    url: image31,
-  },
+ 
   {
     id: 32,
     title: 'Image 32',
