@@ -29,7 +29,7 @@ function SlideShow() {
       <div className={`full-width ${styles.overlay}`} />
 
       <div className={`full-width full-height ${styles.slide}`}>
-        <Slide image={[slide7, slide8, slide9, slide10, slide11, slide12]} />
+        <Slide image={[slide7, slide8, slide9, slide10, slide13, slide12]} />
         <Slide
           image={[slide1, slide2, slide3, slide4, slide6, slide5]}
           reverse={true}
