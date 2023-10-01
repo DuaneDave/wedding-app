@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 
 import Navigation from '@/component/navigation/Navigation';
+import Notification from '@/component/ui/Notification';
 
 const myFont = localFont({
   src: [
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body className={myFont.className}>
         <Navigation />
         {children}
+        <Notification />
       </body>
     </html>
   );
