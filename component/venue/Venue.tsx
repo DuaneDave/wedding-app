@@ -21,7 +21,7 @@ function Venue() {
         <Header location={location} setLocation={setLocation} />
 
         <h2>Jessy & Inyene's Wedding</h2>
-        <p>Will you be joining us in person or virtually for the wedding @11am?</p>
+        <p>Will you be joining us in person or virtually for the wedding @ 11am?</p>
 
         {location === '' && (
           <div className={`flex ${styles.attend}`}>
