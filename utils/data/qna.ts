@@ -18,7 +18,7 @@ const qna = [
     id: 4,
     question: 'What is the dresscode?',
     answer:
-      "There is no formal dress code, so feel free to wear whatever you want. You can choose a color from the color palette on the homepage if you'd like. The main thing is to wear something you feel comfortable and happy in.",
+      "You can choose a color from the color palette on the homepage if you'd like. The main thing is to wear something you feel comfortable and happy in.",
   },
   {
     id: 5,

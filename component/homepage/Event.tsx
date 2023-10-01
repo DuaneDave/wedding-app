@@ -19,7 +19,7 @@ function Event() {
               </div>
 
               <p className={styles.eventText}>
-                Saturday, <br /> December 2nd 2023
+                Saturday, <br /> December 2nd 2023 @11am.
               </p>
             </div>
             <Date />

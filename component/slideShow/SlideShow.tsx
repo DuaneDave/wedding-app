@@ -16,7 +16,6 @@ import slide7 from '@/public/images/slide7.jpg';
 import slide8 from '@/public/images/slide8.jpg';
 import slide9 from '@/public/images/slide9.jpg';
 import slide10 from '@/public/images/slide10.jpg';
-import slide11 from '@/public/images/slide11.jpg';
 import slide12 from '@/public/images/slide12.jpg';
 import slide13 from '@/public/images/slide13.jpg';
 import slide14 from '@/public/images/slide14.jpg';
@@ -30,7 +29,7 @@ function SlideShow() {
       <div className={`full-width ${styles.overlay}`} />
 
       <div className={`full-width full-height ${styles.slide}`}>
-        <Slide image={[slide7, slide8, slide9, slide10, slide11, slide12]} />
+        <Slide image={[slide7, slide8, slide9, slide10, slide13, slide12]} />
         <Slide
           image={[slide1, slide2, slide3, slide4, slide6, slide5]}
           reverse={true}
