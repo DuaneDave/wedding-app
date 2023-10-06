@@ -21,7 +21,11 @@ const agenda = [
   },
   {
     id: 6,
-    title: 'Closing prayer: 132',
+    title: 'Closing song: 132',
+  },
+  {
+    id: 7,
+    title: 'Closing prayer',
   },
 ];
 
