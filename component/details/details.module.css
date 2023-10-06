@@ -148,7 +148,7 @@
   transform: translateX(-50%);
 }
 
-.timeline li:nth-of-type(5) span::after {
+.timeline li:nth-of-type(6) span::after {
   bottom: 0;
   top: unset;
 }
