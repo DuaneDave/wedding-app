@@ -34,7 +34,7 @@ function Event() {
               </div>
 
               <p className={styles.eventText}>
-                38 Oshindehin <br /> street, Orile Ogba <br /> Agege, Lagos State.
+                38 Oshindehin <br /> street, off.  Akilo, <br /> Ikeja, Lagos State.
               </p>
             </div>
           </div>
