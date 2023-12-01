@@ -31,10 +31,10 @@ function Notification() {
             <CancelIcon />
           </button>
 
-          <AlertBox />
           <span className="flex align-y">
-            <CelebrationIcon />
-            <p>{days.toString()} days to go</p>
+            <p>
+              If you find it difficult to locate the venue for the event, we recommend you call Fatima @ +234 812 149 7473 for direction.
+            </p>
           </span>
         </motion.div>
       )}

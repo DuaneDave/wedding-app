@@ -3,7 +3,10 @@
   bottom: 2rem;
   right: 0;
   z-index: 1000;
-  height: 80px;
+  height: fit-content;
+  width: 320px;
+  background: var(--secondary-color);
+  padding: 1rem;
 }
 
 .notification button {
@@ -17,24 +20,9 @@
   height: 30px;
 }
 
-.notification > svg {
-  height: 100%;
-  width: 100%;
-}
-
 .notification span {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 1rem;
   color: #fefafa;
   font-family: var(--font-general);
-}
-
-.notification span svg {
-  width: 50px;
-  height: 50px;
-  margin-right: 1.5rem;
 }
 
 .notification p {
