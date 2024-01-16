@@ -12,16 +12,16 @@ function ZoomDetails() {
           <span>556 454 9829</span>
         </p>
 
-        <Copy text="556 454 9829" />
+        <Copy text="222 000 0000" />
       </div>
 
       <div className={`flex`}>
         <p className="flex flex-col">
           Passcode
-          <span>176593</span>
+          <span>1765433</span>
         </p>
 
-        <Copy text="176593" />
+        <Copy text="006793" />
       </div>
     </div>
   );
