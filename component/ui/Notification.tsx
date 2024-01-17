@@ -33,7 +33,7 @@ function Notification() {
 
           <span className="flex align-y">
             <p>
-              If you find it difficult to locate the venue for the event, we recommend you call Fatima @ +234 812 149 7473 for direction.
+              Thank you for honouring our day!
             </p>
           </span>
         </motion.div>
